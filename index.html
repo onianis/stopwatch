@@ -1,0 +1,69 @@
+<!-- i love you hannah:) -->
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="buttons.css">
+        <link rel="stylesheet" href="fonts.css">
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+            rel="stylesheet">
+        <title>54 - Stopwatch</title>
+    </head>
+
+    <body>
+
+        <div id="mainContainer" class="noselect">
+            <h1 id="titleHeader">Stopwatch</h1>
+
+            <div id="timeContainer" class="noselect">
+                <h1 id="timeLabel">00:00:00.000</h1>
+            </div>
+
+            <div id="buttonsContainer" class="noselect">
+                <button class="hvr-icon-rotate hvr-shutter-in-vertical optionButton" id="startButton">
+                    <span class="align-middle">Start</span>
+                    <span class="align-middle">
+                        <img src="assets/images/start_button_icon.png" width="25px" class="hvr-icon" alt="buttonIcon">
+                    </span>
+                </button>
+
+                <button class="hvr-icon-rotate hvr-shutter-in-vertical optionButton" id="stopButton">
+                    <span class="align-middle">Stop</span>
+                    <span class="align-middle">
+                        <img src="assets/images/stop_button_icon.png" width="25px" class="hvr-icon" alt="buttonIcon">
+                    </span>
+                </button>
+
+                <button class="hvr-icon-rotate hvr-shutter-in-vertical optionButton" id="resetButton">
+                    <span class=" align-middle">Reset</span>
+                    <span class=" align-middle">
+                        <img src="assets/images/reset_button_icon.png" width="25px" class="hvr-icon" alt="buttonIcon">
+                    </span>
+                </button>
+
+                <button class="hvr-icon-rotate hvr-shutter-in-vertical optionButton" id="lapButton">
+                    <span class=" align-middle">Lap</span>
+                    <span class=" align-middle">
+                        <img src="assets/images/lap_button_icon.png" width="25px" class="hvr-icon" alt="buttonIcon">
+                    </span>
+                </button>
+            </div>
+
+            <div id="lapsDisplayContainer" class="noselect"></div>
+
+        </div>
+
+        <h3 id="heart" class="noselect">&lt;3</h3>
+        <h3 id="copyrightDisclaimer" class="noselect"><a href="https://github.com/onianis" id="githubLink">Shota Oniani
+                ©2024 All Rights
+                Reserved.</a></h3>
+
+        <script src="index.js"></script>
+    </body>
+
+</html>

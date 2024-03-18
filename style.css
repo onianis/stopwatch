@@ -1,0 +1,125 @@
+:root {
+    /** CSS DARK THEME PRIMARY COLORS */
+    --color-primary-100: #7676e8;
+    --color-primary-200: #8884eb;
+    --color-primary-300: #9893ee;
+    --color-primary-400: #a8a2f1;
+    --color-primary-500: #b7b1f3;
+    --color-primary-600: #c6c0f6;
+    /** CSS DARK THEME SURFACE COLORS */
+    --color-surface-100: #121212;
+    --color-surface-200: #282828;
+    --color-surface-300: #3f3f3f;
+    --color-surface-400: #575757;
+    --color-surface-500: #717171;
+    --color-surface-600: #8b8b8b;
+    /** CSS DARK THEME MIXED SURFACE COLORS */
+    --color-surface-mixed-100: #302e4a;
+    --color-surface-mixed-200: #44425c;
+    --color-surface-mixed-300: #5a576f;
+    --color-surface-mixed-400: #6f6d82;
+    --color-surface-mixed-500: #868496;
+    --color-surface-mixed-600: #9d9baa;
+}
+
+body {
+    background-image: url("assets/images/gradient_bg_1.png");
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: cover;
+    color: white;
+    font-family: 'tt_norms_proregular';
+    margin: 0%;
+    padding: 0%;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#mainContainer {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    background-color: var(--color-surface-mixed-200);
+    margin-top: 1%;
+    padding-top: 8px;
+    border-radius: 10px;
+    padding-bottom: 1%;
+    box-shadow: 12px 14px 34px 6px rgba(26, 24, 24, 0.73);
+}
+
+#titleHeader {
+    font-family: 'tt_norms_probold';
+    display: inline;
+    font-size: 3.5em;
+    color: var(--color-primary-600);
+}
+
+#timeContainer {
+    pointer-events: none;
+}
+
+#timeLabel {
+    font-family: "Space Mono";
+    font-size: 4em;
+    font-weight: 400;
+}
+
+#lapsDisplayContainer {
+    font-family: "Space Mono";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.5em;
+    line-height: 0.75;
+    box-shadow: 12px 14px 34px 0px rgba(26, 24, 24, 0.73) inset;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 75%;
+    margin-left: 13%;
+    border-radius: 15px;
+    background-color: var(--color-surface-mixed-300);
+}
+
+#lapsDisplayTitle {
+    font-family: 'tt_norms_promedium';
+    font-style: normal;
+    font-size: 1.5em;
+    color: var(--color-primary-500);
+}
+
+#heart {
+    font-family: 'tt_norms_proregular';
+    font-size: 0.8em;
+    color: var(--color-primary-200);
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+#copyrightDisclaimer {
+    font-family: 'tt_norms_probold';
+    font-size: 0.8em;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: underline;
+    color: white;
+}
+
+a:visited {
+    color: var(--color-surface-mixed-600);
+}
