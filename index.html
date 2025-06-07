@@ -123,6 +123,145 @@
     font-weight: 700;
     font-style: italic;
 }
+
+            .optionButton {
+    font-family: 'tt_norms_proregular';
+    font-size: 1.5em;
+    border: none;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    padding: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 4px;
+    line-height: 1;
+
+}
+
+.align-middle {
+    vertical-align: middle;
+}
+
+.hvr-icon-rotate {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+}
+
+.hvr-icon-rotate .hvr-icon {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    padding-top: 5px;
+}
+
+.hvr-icon-rotate:hover .hvr-icon,
+.hvr-icon-rotate:active .hvr-icon {
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+.hvr-icon {
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+
+
+
+
+
+.hvr-shutter-in-vertical {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    background: var(--color-primary-100);
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    border-radius: 5px;
+}
+
+.hvr-shutter-in-vertical:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #e1e1e1;
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    border-radius: 5px;
+}
+
+.hvr-shutter-in-vertical:hover,
+.hvr-shutter-in-vertical:active {
+    color: white;
+}
+
+.hvr-shutter-in-vertical:hover:before,
+.hvr-shutter-in-vertical:active:before {
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+}
+
+.hvr-shutter-in-vertical:inactive {
+    background-color: #e1e1e1;
+}
+
+#startButton {
+    background-color: rgb(11, 120, 11);
+}
+
+#startButton:active {
+    background-color: rgb(11, 170, 11);
+}
+
+#stopButton {
+    background-color: rgb(180, 2, 2);
+}
+
+#stopButton:active {
+    background-color: rgb(230, 2, 2);
+}
+
+#resetButton {
+    background-color: rgb(64, 141, 135);
+}
+
+#resetButton:active {
+    background-color: rgb(67, 187, 177);
+}
+
+#lapButton {
+    background-color: rgb(155, 107, 115);
+}
+
+#lapButton:active {
+    background-color: rgb(206, 148, 158);
+}
         </style>
         <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
             rel="stylesheet">
